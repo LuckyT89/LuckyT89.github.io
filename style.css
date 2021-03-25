@@ -3,5 +3,12 @@
 .main-heading {
     text-align: center;
     font-family: arial;
-    
+    font-size: 72px;
+    background: -webkit-linear-gradient(180deg, #0bd3d3, #f890e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+h3.subheading{text-align: center}
+span.pink {color: #f890e7}
+span.blue {color: #0bd3d3}
