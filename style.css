@@ -1,14 +1,21 @@
 
 
+.heading-container {
+    background: linear-gradient(to right, #25c8f5, #f525b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 800px;
+    margin: auto;
+}
+
 .main-heading {
     text-align: center;
     font-family: arial;
     font-size: 72px;
-    background: -webkit-linear-gradient(180deg, #0bd3d3, #f890e7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
 }
 
-h3.subheading{text-align: center}
-span.pink {color: #f890e7}
-span.blue {color: #0bd3d3}
+h3.sub-heading {
+    text-align: center;
+    line-height: 1.6;
+}
