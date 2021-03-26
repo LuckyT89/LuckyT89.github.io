@@ -12,7 +12,11 @@ const cardContainer = document.getElementById("card-container");
 function createCard(project) {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `<p>This card should display: ${project.name}</p>`;
+    card.innerHTML = 
+    `<h4>${project.name}</h4>
+    <p>${project.description}</p>
+    <a href='${project.siteURL}'>View site</a>
+    <a href='${project.githubURL}'>GitHub</a>`;
 
     return card;   
 }
