@@ -9,6 +9,5 @@ add browser tab icon
 
 *** TODAY ***
 create cards for projects
-
-
+make links open in new tab
 
