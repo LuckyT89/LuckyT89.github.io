@@ -38,12 +38,18 @@ section.history {
     margin: 40px auto;
 }
 
-h3.historyTitle {
+h3.section-label {
     text-align: center;
 }
 
 
 /* Project section */
+section.projects {
+    width: 800px;
+    border: 1px solid black;
+    margin: 40px auto;
+}
+
 div.card {
     width: 300px;
     border: 1px solid black;
