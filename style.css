@@ -1,5 +1,5 @@
 
-
+/* Header section */
 .heading-container {
     background: linear-gradient(to right, #25c8f5, #f525b3);
     -webkit-background-clip: text;
@@ -40,6 +40,17 @@ section.history {
 
 h3.section-label {
     text-align: center;
+    font-size: 32px;
+
+    background: linear-gradient(to right, #25c8f5, #f525b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.section-label-container {
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
 }
 
 
@@ -57,7 +68,14 @@ div#card-container {
 
 div.card {
     width: 300px;
-    border: 1px solid lime;
+    border: 1px solid black;
     margin: 10px auto;
     padding: 10px;
+}
+
+
+
+/* Contact info */
+p.contact {
+    text-align: center;
 }
