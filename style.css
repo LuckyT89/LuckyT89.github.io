@@ -30,6 +30,20 @@ img {
 }
 
 
+
+/* History section */
+section.history {
+    width: 800px;
+    border: 1px solid black;
+    margin: 40px auto;
+}
+
+h3.historyTitle {
+    text-align: center;
+}
+
+
+/* Project section */
 div.card {
     width: 300px;
     border: 1px solid black;
