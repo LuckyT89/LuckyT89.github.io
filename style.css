@@ -28,3 +28,9 @@ img {
     margin: 40px auto;
     display: block;
 }
+
+
+div.card {
+    width: 300px;
+    border: 1px solid black;
+}

@@ -1,8 +1,14 @@
-
-
-create cards for projects
+*** TODO ***
 create contact link 
-make profile picture a circle
 add tenure counter
 look at CSS error
+add browser tab icon
+
+
+
+
+*** TODAY ***
+create cards for projects
+
+
 
