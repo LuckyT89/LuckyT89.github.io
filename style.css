@@ -19,3 +19,12 @@ h3.sub-heading {
     text-align: center;
     line-height: 1.6;
 }
+
+
+
+img {
+    width: 300px;
+    border-radius: 150px;
+    margin: 40px auto;
+    display: block;
+}
