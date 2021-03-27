@@ -9,7 +9,7 @@
 
 .main-heading {
     text-align: center;
-    font-family: arial;
+    font-family: 'Orbitron', sans-serif;
     font-size: 72px;
     
     background: linear-gradient(to right, #25c8f5, #f525b3);
@@ -41,18 +41,19 @@ img {
 section {
     width: 800px;
     margin: 100px auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 div.section-label-container {
-    width: 200px;
+    width: 230px;
     margin: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 h3.section-label {
     text-align: center;
     font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
 
     background: linear-gradient(to right, #25c8f5, #f525b3);
     -webkit-background-clip: text;
