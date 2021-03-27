@@ -41,13 +41,13 @@ img {
 section {
     width: 800px;
     margin: 100px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 div.section-label-container {
     width: 230px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h3.section-label {
@@ -60,6 +60,15 @@ h3.section-label {
     -webkit-text-fill-color: transparent;
 }
 
+
+ul.list {
+    /* border: 1px solid black; */
+    width: 400px;
+    margin: 30px auto;
+}
+li {
+    padding: 10px;
+}
 
 
 /* Cards */
