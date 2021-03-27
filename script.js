@@ -16,7 +16,7 @@ function createCard(project) {
     `<h4>${project.name}</h4>
     <p>${project.description}</p>
     <a href='${project.siteURL}' target='_blank'>View site</a>
-    <a href='${project.githubURL}' target='_blank'>GitHub</a>`;
+    <a class='github' href='${project.githubURL}' target='_blank'>GitHub</a>`;
 
     return card;   
 }

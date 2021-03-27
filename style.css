@@ -40,14 +40,14 @@ img {
 /* General sections */
 section {
     width: 800px;
-    margin: 40px auto;
-    border: 1px solid black;
+    margin: 100px auto;
+    /* border: 1px solid black; */
 }
 
 div.section-label-container {
     width: 200px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h3.section-label {
@@ -70,8 +70,19 @@ div#card-container {
 div.card {
     width: 300px;
     border: 1px solid #25c8f5;
-    margin: 10px auto;
-    padding: 10px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+div.card h4 {
+    text-align: center;
+    margin-top: 0px;
+}
+div.card p {
+    margin-bottom: 30px;
+}
+div.card a.github {
+    float: right;
 }
 
 
