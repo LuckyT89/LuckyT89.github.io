@@ -1,6 +1,6 @@
 const projects = [
     {name: "Gamer Patch", description: "A cool site to see the lastest patch notes on popular video games. Built with PHP, Bootstrap, and MySQL.", siteURL: "http://gamerpatch.net/", githubURL: "https://github.com/LuckyT89/gamer-patch"},
-    {name: "To Do App", description: "Keep track of things you need to do on your list that are persistently saved to a database. Built with Node and MongoDB", siteURL: "https://project4-nodtodo.herokuapp.com/todo", githubURL: "https://github.com/LuckyT89/Project4-NodeTodo"},
+    {name: "To Do App", description: "Keep track of things you need to do on your list that are persistently saved to a database. Built with Node and MongoDB.", siteURL: "https://project4-nodtodo.herokuapp.com/todo", githubURL: "https://github.com/LuckyT89/Project4-NodeTodo"},
     {name: "Calculator", description: "Perform simple calculations on this app designed to look like the classic iPhone calculator. Built with HTML, CSS, and JavaScript.", siteURL: "https://calculator-7f038.web.app/", githubURL: "https://github.com/LuckyT89/CalculatorApp"}
 ];
 
