@@ -1,5 +1,5 @@
 
-/* Header section */
+/* Header */
 .heading-container {
     
     width: 800px;
@@ -37,11 +37,17 @@ img {
 
 
 
-/* History section */
-section.history {
+/* General sections */
+section {
     width: 800px;
-    /* border: 1px solid black; */
     margin: 40px auto;
+    border: 1px solid black;
+}
+
+div.section-label-container {
+    width: 200px;
+    margin: auto;
+    border: 1px solid black;
 }
 
 h3.section-label {
@@ -53,20 +59,9 @@ h3.section-label {
     -webkit-text-fill-color: transparent;
 }
 
-div.section-label-container {
-    /* border: 1px solid black; */
-    width: 200px;
-    margin: auto;
-}
 
 
-/* Project section */
-section.projects {
-    width: 800px;
-    /* border: 1px solid black; */
-    margin: 40px auto;
-}
-
+/* Cards */
 div#card-container {
     width: 500px;
     margin: auto;
