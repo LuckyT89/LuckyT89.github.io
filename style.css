@@ -84,10 +84,19 @@ div.card p {
 div.card a.github {
     float: right;
 }
+div.card a {
+    color: #25c8f5;
+}
+div.card a:visited {
+    color: #f525b3;
+}
 
 
 
 /* Contact info */
 p.contact {
     text-align: center;
+}
+a.contact {
+    color: #25c8f5;
 }
