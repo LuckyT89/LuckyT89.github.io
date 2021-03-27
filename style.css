@@ -1,11 +1,10 @@
 
 /* Header section */
 .heading-container {
-    background: linear-gradient(to right, #25c8f5, #f525b3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     width: 800px;
     margin: auto;
+    /* border: 1px solid black; */
 }
 
 .main-heading {
@@ -13,11 +12,18 @@
     font-family: arial;
     font-size: 72px;
     
+    background: linear-gradient(to right, #25c8f5, #f525b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 h3.sub-heading {
     text-align: center;
     line-height: 1.6;
+
+    background: linear-gradient(to right, #25c8f5, #f525b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 
@@ -34,7 +40,7 @@ img {
 /* History section */
 section.history {
     width: 800px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 40px auto;
 }
 
@@ -48,7 +54,7 @@ h3.section-label {
 }
 
 div.section-label-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 200px;
     margin: auto;
 }
@@ -57,7 +63,7 @@ div.section-label-container {
 /* Project section */
 section.projects {
     width: 800px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 40px auto;
 }
 
@@ -68,7 +74,7 @@ div#card-container {
 
 div.card {
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid #25c8f5;
     margin: 10px auto;
     padding: 10px;
 }
