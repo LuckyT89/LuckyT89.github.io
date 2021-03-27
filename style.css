@@ -111,6 +111,7 @@ div.card a:visited {
 /* Contact info */
 p.contact {
     text-align: center;
+    margin-bottom: 40px;
 }
 a.contact {
     color: #25c8f5;
