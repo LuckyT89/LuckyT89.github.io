@@ -1,3 +1,47 @@
+/* This CSS does a fade in effect on all content when the page loads */
+* {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
@@ -14,7 +58,7 @@ body {
 
 .main-heading {
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; /* This is a google font */
     font-size: 72px;
     
     background: linear-gradient(to right, #25c8f5, #f525b3);
@@ -58,7 +102,7 @@ div.section-label-container {
 h3.section-label {
     text-align: center;
     font-size: 32px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; /* This is a google font */
 
     background: linear-gradient(to right, #25c8f5, #f525b3);
     -webkit-background-clip: text;
