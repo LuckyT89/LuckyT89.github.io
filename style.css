@@ -1,162 +1,156 @@
 /* This CSS does a fade in effect on all content when the page loads */
 * {
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
-    animation: fadein 3s;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 body {
-    font-family: 'Mulish', sans-serif;
-    font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
 }
-
 
 /* Header */
 .heading-container {
-    
-    width: 800px;
-    margin: auto;
-    /* border: 1px solid black; */
+  width: 800px;
+  margin: auto;
+  /* border: 1px solid black; */
 }
 
 .main-heading {
-    text-align: center;
-    font-family: 'Orbitron', sans-serif; /* This is a google font */
-    font-size: 72px;
-    
-    background: linear-gradient(to right, #25c8f5, #f525b3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+  text-align: center;
+  font-family: "Orbitron", sans-serif; /* This is a google font */
+  font-size: 72px;
+
+  background: linear-gradient(to right, #25c8f5, #f525b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3.sub-heading {
-    text-align: center;
-    line-height: 1.6;
+  text-align: center;
+  line-height: 1.6;
 
-    background: linear-gradient(to right, #25c8f5, #f525b3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+  background: linear-gradient(to right, #25c8f5, #f525b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-
 
 img {
-    width: 300px;
-    border-radius: 150px;
-    margin: 40px auto;
-    display: block;
+  width: 300px;
+  border-radius: 150px;
+  margin: 40px auto;
+  display: block;
 }
-
-
 
 /* General sections */
 section {
-    width: 800px;
-    margin: 100px auto;
-    /* border: 1px solid black; */
+  width: 800px;
+  margin: 100px auto;
+  /* border: 1px solid black; */
 }
 
 div.section-label-container {
-    width: 230px;
-    margin: auto;
-    /* border: 1px solid black; */
+  width: 230px;
+  margin: auto;
+  /* border: 1px solid black; */
 }
 
 h3.section-label {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Orbitron', sans-serif; /* This is a google font */
+  text-align: center;
+  font-size: 32px;
+  font-family: "Orbitron", sans-serif; /* This is a google font */
 
-    background: linear-gradient(to right, #25c8f5, #f525b3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #25c8f5, #f525b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 ul.list {
-    /* border: 1px solid black; */
-    width: 400px;
-    margin: 30px auto;
+  /* border: 1px solid black; */
+  width: 400px;
+  margin: 30px auto;
 }
 li {
-    padding: 10px;
+  padding: 10px;
 }
-
 
 /* Cards */
 div#card-container {
-    width: 500px;
-    margin: auto;
+  width: 500px;
+  margin: auto;
 }
 
 div.card {
-    width: 300px;
-    border: 1px solid #25c8f5;
-    margin: 50px auto;
-    padding: 40px;
+  width: 300px;
+  border: 1px solid #25c8f5;
+  margin: 50px auto;
+  padding: 40px;
 }
 
 div.card h4 {
-    text-align: center;
-    margin-top: 0px;
+  text-align: center;
+  margin-top: 0px;
 }
 div.card p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 div.card a.github {
-    float: right;
+  float: right;
 }
 div.card a {
-    color: #25c8f5;
+  color: #25c8f5;
 }
 div.card a:visited {
-    color: #f525b3;
+  color: #f525b3;
 }
-
-
 
 /* Contact info */
 p.contact {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 a.contact {
-    color: #25c8f5;
+  color: #25c8f5;
 }
