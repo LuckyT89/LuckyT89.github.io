@@ -46,6 +46,10 @@
   }
 }
 
+
+
+
+
 body {
   font-family: "Mulish", sans-serif;
   font-size: 20px;
@@ -154,3 +158,29 @@ p.contact {
 a.contact {
   color: #25c8f5;
 }
+
+
+
+
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 800px) {
+  .heading-container {
+    /* background-color: lightblue; */
+    width: 100%;
+  }
+
+  section {
+    /* background-color: lightblue; */
+    width: 100%;
+  }
+
+  div#card-container {
+    /* background-color: coral; */
+    width: 100%;
+  }
+}
+
