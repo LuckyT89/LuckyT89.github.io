@@ -59,7 +59,6 @@ body {
 .heading-container {
   width: 800px;
   margin: auto;
-  /* border: 1px solid black; */
 }
 
 .main-heading {
@@ -68,6 +67,7 @@ body {
   font-size: 72px;
 
   background: linear-gradient(to right, #25c8f5, #f525b3);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -77,6 +77,7 @@ h3.sub-heading {
   line-height: 1.6;
 
   background: linear-gradient(to right, #25c8f5, #f525b3);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -88,17 +89,18 @@ img {
   display: block;
 }
 
+
+
+
 /* General sections */
 section {
   width: 800px;
   margin: 100px auto;
-  /* border: 1px solid black; */
 }
 
 div.section-label-container {
   width: 230px;
   margin: auto;
-  /* border: 1px solid black; */
 }
 
 h3.section-label {
@@ -107,18 +109,20 @@ h3.section-label {
   font-family: "Orbitron", sans-serif; /* This is a google font */
 
   background: linear-gradient(to right, #25c8f5, #f525b3);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 ul.list {
-  /* border: 1px solid black; */
   width: 400px;
   margin: 30px auto;
 }
 li {
   padding: 10px;
 }
+
+
 
 /* Cards */
 div#card-container {
@@ -150,6 +154,9 @@ div.card a:visited {
   color: #f525b3;
 }
 
+
+
+
 /* Contact info */
 p.contact {
   text-align: center;
@@ -166,21 +173,46 @@ a.contact {
 
 
 
-/* Media queries */
-@media only screen and (max-width: 800px) {
+/* Media queries to make things fit nicer on smaller screens */
+@media only screen and (max-width: 850px) {
   .heading-container {
-    /* background-color: lightblue; */
     width: 100%;
   }
 
   section {
-    /* background-color: lightblue; */
     width: 100%;
   }
 
   div#card-container {
-    /* background-color: coral; */
     width: 100%;
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+  .main-heading {
+    font-size: 60px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+
+
+  ul.list {
+    width: 100%;
+    padding: 0px;
+  }
+
+
+
+  div#card-container {
+    width: 100%;
+  }
+
+  div.card {
+    width: 70%;
+    
+  }
+}
